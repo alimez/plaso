@@ -32,7 +32,7 @@ class MacNotesZhtmlstringEventData(events.EventData):
   def __init__(self):
     """Initializes event data."""
     super(MacNotesZhtmlstringEventData, self).__init__(
-      data_type=self.DATA_TYPE)
+        data_type=self.DATA_TYPE)
     self.zhtmlstring = None
     self.last_modified_time = None
 
